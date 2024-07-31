@@ -6,7 +6,7 @@ import java.util.Properties;
 
 import com.aventstack.extentreports.ExtentReports;
 import com.aventstack.extentreports.reporter.ExtentSparkReporter;
-
+/*
 public class Extent_Reporter {
 
 	
@@ -42,3 +42,4 @@ public class Extent_Reporter {
 		return extent;
 	}
 }
+*/
