@@ -11,8 +11,8 @@ import io.cucumber.testng.CucumberOptions;
 		glue = {"Step_definition_files", "com.tutorialninja.Hooks"} ,
 		tags = "@TutorialsNinjalogin or @TutorialsNinjaRegister or @TutotrialNinjaLogout or @TutorialNinjaSearchProduct or @TutorileNinjaAddToCart",
 		//plugin = {"html:test-output\\ExtentReportBDD.html"}
-		plugin = {"pretty", "html:target/site/cucumber2-html", "json:target/cucumber1.json"}
 		
+		plugin = { "com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter:"}
 		)
 
 
